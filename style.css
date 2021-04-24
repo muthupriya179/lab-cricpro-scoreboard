@@ -1,16 +1,201 @@
-/* Type your code here */
-
-
-/* change the font family and spacing as per your project font */
+td,th{
+	width:.100%;
+	height:28px;
+	border-bottom:solid grey 0.1px;
+	border-collapse:collapse;
+	border-spacing:0px;
+	font-family:nunito sans;
+	font-size:16px;
+	text-align:left;
+	box-sizing:border box;
+	padding-left:0%;
+  }
+body{ 
+    background-image: url('assets/background-image1.png');
+    background-repeat: no-repeat;
+    background-attachment: relative;
+     background-position: bottom right;  
+    margin: 1em; 
+	width:45%;
+	height:600px;
+	position:relative;
+	left:30px;
+  } 
+table{
+	  width:90%;
+	background:white;
+  }
+th[scope="col"] {
+    background-color: orangered;
+    color: #fff;
+  padding-left:30px;
+  }
+#con{
+	width:20px;
+	height:30px;
+	padding-left:1100px;
+}
+h1{
+	font-family:nunito sans;
+	font-weight:bold 50px;
+	text-shadow: 1px 1px;
+	padding-right:200px;
+	text-align:left;
+  }
+h3{
+	font-family:nunito sans;
+	color:grey;
+	  line-height:1%;
+	  font-weight: bold;
+	  padding-bottom:30px;
+	  padding-left:3px;
+  }
+#a{
+	padding-left:29px;
+	
+  }
+td[scope="col"] {
+	  background-color: white;
+	  color: black;	
+  }
+a{
+	padding-left:30px;
+	white-space: nowrap;
+	color:rgb(3, 144, 252);
+	text-decoration:none;
+	text-align:left;
+  }
+#he{
+	white-space:nowrap;
+	padding-left:10px;
+  }
+#one{
+	padding-left:70px;
+	color:grey;
+  }
+#aaaa{
+	padding-left:30px;
+	font-weight:bold;
+	
+  }
+#aa{
+	text-align:center;
+	font-weight:bold;
+  }
+#bbb{
+	text-align:center;
+	font-weight:bold;
+  
+  }
+#cc{
+	text-align:center;
+	 font-weight:bold;
+  }
+#mov{
+	text-align:center;
+	 font-weight:bold;
+  }
+#ee{
+	text-align:center;
+	 font-weight:bold;
+	 padding-left:50px;
+  }
+#two{
+	text-align:center;
+  }
+#three{
+	text-align:center;
+  }
+#four{
+	text-align:center;
+  }
+#five{
+	text-align:center;
+  }
+#six{
+	text-align:center;
+  }
+#seven{
+	padding-left:70px;
+	white-space: nowrap;
+	color:grey;
+  }
+#eight{
+	text-align:center;
+  }
+#nine{
+	text-align:center;
+  }
+#ten{
+	text-align:center;
+  }
+#eleven{
+	text-align:center;
+  }
+#twelve{
+	text-align:center;
+  }
+#thir{
+	text-align:center;
+	padding-right:50px;
+	color:grey;
+	white-space :nowrap;
+  }
+#fourt{
+	text-align:center;
+  }
+#fift{
+	text-align:center;
+  }
+#sixt{
+	text-align:center;
+  }
+#sevt{
+	text-align:center;
+  }
+#eigt{
+	text-align:center;
+  }
+#bb{
+	padding-left:71px;
+	color:grey;
+  }
+#ccc{
+	padding-left:71px;
+	color:grey;
+  }
+ #ddd{
+	padding-left:71px;
+	color:grey;
+  }
+#eee{
+	padding-left:30px;
+  }
+#fir{
+	white-space: nowrap;
+	padding-left:34px;
+  }
+#fff{
+	padding-left:30px;
+  }
+#ggg{
+	 padding-left:30px;
+  }
+#as{
+	padding-left:40px;
+	white-space:nowrap;
+  }
+#sec{
+	padding-left:34px; 
+  }
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
-	margin-left: 80px;
+	top: 60px;
+	margin-left: 22px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
+    font-style: normal;    
 }
